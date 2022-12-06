@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    line-height: 18px;
+    font-style: normal;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-position: center center;
+    background-size: 300% 300% ;
+    animation: colors 20s ease-in-out infinite;
+    background-repeat: no-repeat;
+    background-image: url(./assets/fundo-conversor.jpg);
+    background-size: cover;
+
+}
+
+ @keyframes colors {
+    0%{
+        background-position: 0%  50%;
+    }
+
+    50%{
+        background-position: 100%  50%;
+    }
+
+    100%{
+        background-position: 0%  50%;
+    }
+
+
+    
+} 
+
+
+
+.container{
+    width: 375px;
+    background-color: transparent;
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    margin-top:100px;
+    margin: 0 auto;
+    margin-top:100px;
+}
+
+
+header{
+        background-color: rgb(84, 56, 100);
+        border-radius: 25px;
+        font-weight: bold;
+}
+
+h1{ 
+
+    height: 66px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 18px;
+    text-align: center;
+    color: #F4F4F4;
+    padding-top: 25px;
+
+}
+
+
+main{
+    padding: 24px;
+  
+
+}
+
+
+label{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #ffffff;   
+}
+
+
+select{
+    display: block;
+    width: 100%;
+    height: 48px;
+    left: 24px;
+    top: 113px;
+    background: #FFFFFF;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    appearance: none;
+    padding-left: 16px;
+    box-shadow: 2px 2px 5px rgb(0, 0, 0, 0.15);
+    margin-top: 6px;
+    margin-bottom: 24px;
+}
+
+input {
+    display: block;
+    width: 100%;
+    height: 48px;
+    left: 24px;
+    top: 113px;
+    background: #FFFFFF;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    box-shadow: 2px 2px 5px rgb(0, 0, 0, 0.15);
+    padding-left: 16px;
+    font-size: 18px;
+
+}
+
+
+button{
+    background-color: #543864;
+    border-radius: 25px;
+    height: 48px;
+    cursor: pointer;
+    color:#ffffff;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 18px;
+    border: none;
+    width: 100%;
+    margin-top: 24px;
+    margin-bottom: 36px;
+    letter-spacing: 1px;
+
+
+}
+
+button:hover{
+    opacity: 0.9;
+}
+
+button:active{
+    opacity: 0.7;
+
+}
+
+
+section{
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+}
+
+.currency-container{
+    text-align: center;
+    padding: 10px;
+}
+
+.currency-name{  
+    font-weight: 400;
+    font-size: 14px;
+    color: #ffffff;
+
+}
+
+
+.currency-value{
+    font-weight: 700;
+    font-size: 20px;
+    color: #ffffff;
+
+}
+
+.arrow{ 
+    margin: 15px auto;
+    display: block;
+}
+
+
+
+input{
+    background-color: transparent;
+    border:none;
+    border-bottom: 2px solid #ffffff;
+    font-size: 18px;
+    border-radius: 1px;
+    padding: 5px;
+    color: #ffffff;
+    outline: none;
+}
+
+select{
+    background-color: transparent;
+    border:none;
+    border-bottom: 2px solid #ffffff;
+    font-size: 18px;
+    border-radius: 1px;
+    padding: 5px;
+    color: #5e5b5d;
+    
+}
