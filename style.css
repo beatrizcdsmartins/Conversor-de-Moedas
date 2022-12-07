@@ -7,17 +7,24 @@
     font-style: normal;
 }
 
-body{
+html{
     width: 100vw;
     height: 100vh;
-    background-position: center center;
+}
+
+
+  body{
+  
+    background-color: black;
+     background-position: center center;
     background-size: 300% 300% ;
     animation: colors 20s ease-in-out infinite;
     background-repeat: no-repeat;
-    background-image: url(./assets/fundo-conversor.jpg);
-    background-size: cover;
+    background-image: url(./assets/fundo-conversor.png); 
+    background-size:cover; 
 
-}
+
+}  
 
  @keyframes colors {
     0%{
@@ -201,3 +208,21 @@ select{
     color: #5e5b5d;
     
 }
+
+
+@media screen and (max-width:400px){
+
+    header{
+        border-radius: 0;
+    }
+
+    .container{
+        height: 30%;
+        position: relative;
+        top: -15%;
+    }
+  
+}
+
+
+ 
