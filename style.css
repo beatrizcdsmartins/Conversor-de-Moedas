@@ -8,21 +8,29 @@
 }
 
 html{
-    width: 100vw;
+    width: 100%;
     height: 100vh;
 }
 
 
   body{
-
+    width: 100%;
+    height: 100vh;
     background-color: black;
      background-position: center center;
     background-size: 300% 300% ;
     animation: colors 20s ease-in-out infinite;
-    background-repeat: no-repeat;
     background-image: url(./assets/325-03-mountains.jpg); 
-    background-size:cover; 
-    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+ 
  
 
 
@@ -52,36 +60,31 @@ html{
     background-color: transparent;
     -webkit-backdrop-filter: blur(20px);
     backdrop-filter: blur(20px);
-    margin-top:100px;
-    margin: 0 auto;
-    margin-top:100px;
+    border-radius: 15px;
+
 }
 
 
 header{
         background-color: rgb(84, 56, 100);
-        border-radius: 25px;
+        border-radius: 15px;
         font-weight: bold;
+        height: 66px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
 }
 
 h1{ 
-
-    height: 66px;
-    font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 18px;
-    text-align: center;
     color: #F4F4F4;
-    padding-top: 25px;
-
 }
 
 
 main{
     padding: 24px;
-  
-
 }
 
 
@@ -160,7 +163,12 @@ button:active{
 section{
     border: 1px solid #ffffff;
     border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
 
 .currency-container{
     text-align: center;
@@ -181,12 +189,6 @@ section{
     color: #ffffff;
 
 }
-
-.arrow{ 
-    margin: 15px auto;
-    display: block;
-}
-
 
 
 input{
@@ -219,10 +221,13 @@ select{
     }
 
     .container{
-        height: 30%;
-        position: relative;
-        top: -15%;
+        max-width: 375px;
+       
     }
+
+  
+
+
   
 }
 
