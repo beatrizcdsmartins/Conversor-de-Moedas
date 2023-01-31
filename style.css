@@ -14,14 +14,16 @@ html{
 
 
   body{
-  
+
     background-color: black;
      background-position: center center;
     background-size: 300% 300% ;
     animation: colors 20s ease-in-out infinite;
     background-repeat: no-repeat;
-    background-image: url(./assets/fundo-conversor.png); 
+    background-image: url(./assets/325-03-mountains.jpg); 
     background-size:cover; 
+    overflow: hidden;
+ 
 
 
 }  
